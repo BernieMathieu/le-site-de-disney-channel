@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+   font-family: Arial, Helvetica, sans-serif; 
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    height: 60px;
+    align-items: center;
+
+} 
+section:hover{
+    background-color: aliceblue;
+}
+header>img{
+   margin-right: 30px; 
+   margin-left: 20px;
+}  
+
+section>p {
+    color: white;
+        
+}
+
+p {
+    text-align: center;
+}
+
+section {
+    width: 500px;
+    
+}
+
+
+.promotion {
+    display: flex;
+    text-align: center;
+}
+
+h1{
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+aside {
+    justify-content: space-around;
+    padding: 20px;
+
+}
+
+.dessin{
+    color: white;
+    background-image: url(eu_dmm_promo-short-hero_r_0e612f5e.jpeg);
+    height: 40vh;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.promotion2{
+    display: flex;
+    text-align: center;
+}
+
+main{
+    justify-content: space-around;
+    padding: 20px;  
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+ul>li{
+    font-size: 12px;
+    
+}
+ a{
+    text-decoration: none;
+    color: #000;
+ }
+
+ footer{
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 150px;
+
+ }
+ footer>p {
+    font-size: 12px;
+    margin-top: 30px;
+    text-align: center;
+ }
+.Miraculous{
+    background-color:white ;
+ }
+
+ .Mickey{
+    background-color:white ;
+ }
+
+ footer>img {
+    margin-left: 100px;
+ }
